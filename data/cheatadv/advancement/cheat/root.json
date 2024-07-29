@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "world_enable_cheat": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "description": {
+            "text": "世界无处没有作弊 :)"
+        },
+        "icon": {
+            "id": "command_block",
+            "count": 1
+        },
+        "show_toast": false,
+        "title": {
+            "text": "作弊"
+        }
+    },
+    "requirements": [[
+        "world_enable_cheat"
+    ]]
+}

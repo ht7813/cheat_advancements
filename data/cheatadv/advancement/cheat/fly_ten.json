@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "flying": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "连续飞行十次"
+        },
+        "icon": {
+            "id": "feather",
+            "count": 1
+        },
+        "show_toast": true,
+        "frame": "challenge",
+        "hidden": true,
+        "title": {
+            "text": "空格要敲烂了！"
+        }
+    },
+    "requirements": [[
+        "flying"
+    ]],
+    "parent": "cheatadv:cheat/flying"
+}

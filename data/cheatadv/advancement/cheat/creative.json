@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "creative": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "噔噔咚"
+        },
+        "icon": {
+            "id": "grass_block",
+            "count": 1
+        },
+        "show_toast": true,
+        "frame": "task",
+        "hidden": false,
+        "title": {
+            "text": "创造，启动！"
+        }
+    },
+    "requirements": [[
+        "creative"
+    ]],
+    "parent": "cheatadv:cheat/root"
+}

@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "flying": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "大哥累了飞下怎么了？"
+        },
+        "icon": {
+            "id": "feather",
+            "count": 1
+        },
+        "show_toast": true,
+        "frame": "task",
+        "hidden": false,
+        "title": {
+            "text": "飞行，启动！"
+        }
+    },
+    "requirements": [[
+        "flying"
+    ]],
+    "parent": "cheatadv:cheat/creative"
+}
